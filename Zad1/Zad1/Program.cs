@@ -15,8 +15,8 @@
     public static double GetAverage(int[] numbers)
     {
         int sum = 0;
-        for (int i = 0; i < numbers.Length; i++) {
-            sum += numbers[i];
+        for (int j = 0; j < numbers.Length; j++) {
+            sum += numbers[j];
         }
 
         return sum / (double) numbers.Length;
